@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
-import socket
-import struct
-import sys
+import socket, struct, sys
 from datetime import datetime
 
 PROTOCOLOS = {1: "ICMP", 6: "TCP", 17: "UDP"}
